@@ -47,7 +47,7 @@ const questions = [
             {
                 question: "Cacajao calvus vrsta majmuna koja se lako prepoznaje po samom izgledu glave.)?",
                   image: "celavi ukari.jpg", // Putanja do slike za pitanje
-                  options: ["Ćelavi ukari", "Mandril", "Urlikavi",],
+                  options: ["Ćelavi Ukari", "Mandril", "Urlikavi",],
                   correct: "Ćelavi Ukari"
                 },
                 {
