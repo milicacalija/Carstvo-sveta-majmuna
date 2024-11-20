@@ -212,6 +212,30 @@ const questions = [
     document.getElementById('timer').textContent = "";
     document.getElementById('result').textContent = "";
   }
+  const totalScoreElement = document.getElementById('total-score');
+
+  // Pretpostavimo da čuvaš bodove svakog igrača u nizu (može biti deo igre)
+  let allScores = []; // Niz koji čuva bodove svih igrača
+
+  // Funkcija koja dodaje rezultat igrača na kraju igre
+  function addPlayerScore(score) {
+    allScores.push(score); // Dodaj bodove trenutnog igrača u niz
+    updateTotalScore(); // Ažuriraj ukupan rezultat
+  }
+
+  // Funkcija za prikaz ukupnog rezultata
+  function updateTotalScore() {
+    const totalScore = allScores.reduce((sum, current) => sum + current, 0); // Sabira bodove
+    totalScoreElement.innerText = `Ukupno bodova: ${totalScore}`;
+  }
+
+  // Simulacija završetka igre za jednog igrača (npr. nakon završenog kviza)
+  function endGame(playerScore) {
+    addPlayerScore(playerScore); // Dodaje bodove trenutnog igrača
+    alert(`Igrač je završio sa ${playerScore} bodova!`);
+  }
+
+  
   
   window.onload = startQuiz;
   
