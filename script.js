@@ -2,55 +2,56 @@
 const questions = [
    
     {
-      question: "Koji okean je prikazan na slici?",
+      question: "Papio anubis je majmun iz Starog sveta koji se može pohvaliti najrasprostranjenijim staništem u porodici pavijana. Na slici je prikazan?",
       image: "maslinasti pavijan.jpeg", // Putanja do slike za pitanje
-      options: ["Atlantski okean", "Tihi okean", "Indijski okean", "Severni ledeni okean"],
-      correct: "Tihi okean"
+      options: ["Braon kapucini", "Maslinasti pavijan", "Japanski makaki"],
+      correct: "Maslinasti pavijan"
+      
     },
     {
-      question: "Koji planinski vrh je prikazan na slici?",
+      question: "Rhinopithecus rokellana je vrsta 'gold' majmuna koji se nalaze u planinskim šumama na nadmorskim visinama od 1.600 do 4.000 metara nadmorske visine. Na slici je?",
       image: "majmun sa zlatnim nosem.webp", // Putanja do slike za pitanje
-      options: ["Mont Everest", "K2", "Kangčendzenga", "Lhotse"],
-      correct: "Mont Everest"
+      options: ["Majmun sa prnjastim nosom", "Mali marmoset", "Majmun sa zlatnim nosom"],
+      correct: "Majmun sa zlatnim nosom"
     },
     {
-      question: "Koja planeta je prikazana na slici?",
+      question: "Callithrik pigmaea je najmanja vrsta majmuna na svetu.Zbog svoje male veličine žive u gustim prašumama sa puno skrovišta. Na slici je:)?",
       image: "mali marmoset.jpg", // Putanja do slike za pitanje
-      options: ["Merkur", "Mars", "Zemlja", "Venera"],
-      correct: "Merkur"
+      options: ["Mali marmoset", "Mandril", "Rolovai majmun"],
+      correct: "Mali marmoset"
     },
     {
-      question: "Koliko kontinenata se nalazi na slici?",
+      question: "„Ateles Geoffroii je jedna vrsta spider majmuna koji imaju izuzetno duge repove koje koriste za vešanje sa drveća ili za branje voća. Na slici je?",
       image: "pauk majmun.webp", // Putanja do slike za pitanje
-      options: ["5", "6", "7", "8"],
-      correct: "7"
+      options: [ "Car Tamarin", "Gelada", "Paukoliki majmun"],
+      correct: "Paukoliki majmun"
     },
     {
-    question: "Koliko kontinenata se nalazi na slici?",
+    question: "Saguinus imperator je vrsta majmuna koja je dobila ime po nemačkom caru Vilhemu,koji je nosio podignute brkove. Na slici je ?",
       image: "tamarin.webp", // Putanja do slike za pitanje
-      options: ["5", "6", "7", "8"],
-      correct: "7"
+      options: ["Beloliki Saki", "Tamarin-car", "Barbarski makaki"],
+      correct: " Tamarin-car"
     },
     {
-        question: "Koliko kontinenata se nalazi na slici?",
+        question: "Aotus vociferans spiks je jedna  vrsta majmuna koja se budi 15 minuta nakon zalaska sunca i vraća u krevet pre izlaska sunca. Na slici je:)?",
           image: "spiksov majmun.jpg", // Putanja do slike za pitanje
-          options: ["5", "6", "7", "8"],
+          options: ["Mandril", "Majmun-spiks", "Zapadni kolobus"],
           correct: "7"
         },
         {
-            question: "Koliko kontinenata se nalazi na slici?",
+            question: "Nasalis larvatus jedna vrsta big nose majmuna, pronađen samo na azijskom ostrvu Borneo. Na slici je?",
               image: "majmun sa dugackim nosem.avif", // Putanja do slike za pitanje
-              options: ["5", "6", "7", "8"],
-              correct: "7"
+              options: ["Rolovai", "Gelada", "Majmun sa dugačkim nosom"],
+              correct: "Majmun sa dugačkim nosom"
             },
             {
-                question: "Koliko kontinenata se nalazi na slici?",
+                question: "Cacajao calvus vrsta majmuna koja se lako prepoznaje po samom izgledu glave.)?",
                   image: "celavi ukari.jpg", // Putanja do slike za pitanje
-                  options: ["5", "6", "7", "8"],
-                  correct: "7"
+                  options: ["Ćelavi ukari", "Mandril", "Urlikavi",],
+                  correct: "Ćelavi Ukari"
                 },
                 {
-                    question: "Koliko kontinenata se nalazi na slici?",
+                    question: "Macaca fuscata, poznati kao snežni majmuni)?",
                       image: "japanski makaki.webp", // Putanja do slike za pitanje
                       options: ["5", "6", "7", "8"],
                       correct: "7"
