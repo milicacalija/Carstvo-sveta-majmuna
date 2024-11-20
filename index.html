@@ -85,6 +85,34 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 8px; /* opcionalno za zaobljene ivice */
 }
+@media (max-width: 768px) {
+  body {
+    padding: 10px; /* Osigurava da sadržaj ima razmak od ivica ekrana */
+  }
+
+  .quiz-container {
+    padding: 15px 20px; /* Smanjuje padding za manji ekran */
+  }
+
+  h1 {
+    font-size: 20px; /* Naslov je proporcionalno manji */
+  }
+
+  button {
+    font-size: 16px; /* Manja veličina teksta na dugmetu */
+    padding: 8px; /* Manji padding za dugmad */
+  }
+
+  .question-image {
+    width: 100%; /* Slika zauzima celu širinu ekrana */
+    max-width: 400px; /* Ograničava maksimalnu širinu slike */
+    height: auto; /* Zadržava proporcije slike */
+  }
+
+  #result {
+    font-size: 18px; /* Rezultat je proporcionalno manji */
+  }
+}
 
   </style>
   
