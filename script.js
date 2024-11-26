@@ -1,3 +1,4 @@
+
 // Niz sa pitanjima, odgovorima i slikama
 const questions = [
    
@@ -9,13 +10,13 @@ const questions = [
       
     },
     {
-      question: "Rhinopithecus rokellana je vrsta 'gold' majmuna koji se nalaze u planinskim šumama na nadmorskim visinama od 1.600 do 4.000 metara nadmorske visine. Na slici je?",
+      question: "Rhinopithecus rokellana je vrsta 'gold' majmuna koji se nalaze u planinskim šumama na nadmorskim visinama od 1.600 do 4.000 metara. Na slici je?",
       image: "majmun sa zlatnim nosem.webp", // Putanja do slike za pitanje
       options: ["Majmun sa prnjastim nosom", "Mali marmoset", "Majmun sa zlatnim nosom"],
       correct: "Majmun sa zlatnim nosom"
     },
     {
-      question: "Callithrik pigmaea je najmanja vrsta majmuna na svetu.Zbog svoje male veličine žive u gustim prašumama sa puno skrovišta. Na slici je:)?",
+      question: "Callithrik pigmaea je najmanja vrsta majmuna na svetu.Zbog svoje male veličine živi u gustim prašumama sa puno skrovišta. Na slici je:)?",
       image: "mali marmoset.jpg", // Putanja do slike za pitanje
       options: ["Mali marmoset", "Mandril", "Rolovai majmun"],
       correct: "Mali marmoset"
@@ -29,14 +30,14 @@ const questions = [
     {
     question: "Saguinus imperator je vrsta majmuna koja je dobila ime po nemačkom caru Vilhemu,koji je nosio podignute brkove. Na slici je ?",
       image: "tamarin.webp", // Putanja do slike za pitanje
-      options: ["Beloliki Saki", "Tamarin-car", "Barbarski makaki"],
-      correct: " Tamarin-car"
+      options: ["Beloliki Saki", "Tamarin car", "Barbarski makaki"],
+      correct: " Tamarin car"
     },
     {
-        question: "Aotus vociferans spiks je jedna  vrsta majmuna koja se budi 15 minuta nakon zalaska sunca i vraća u krevet pre izlaska sunca. Na slici je:)?",
+        question: "Aotus vociferans spiks je jedna  vrsta majmuna koja se budi 15 minuta nakon zalaska Sunca i vraća u krevet pre izlaska Sunca. Na slici je?",
           image: "spiksov majmun.jpg", // Putanja do slike za pitanje
-          options: ["Mandril", "Majmun-spiks", "Zapadni kolobus"],
-          correct: "7"
+          options: ["Spiks","Mandril",  "Zapadni kolobus"],
+          correct: "Spiks"
         },
         {
             question: "Nasalis larvatus jedna vrsta big nose majmuna, pronađen samo na azijskom ostrvu Borneo. Na slici je?",
@@ -45,197 +46,211 @@ const questions = [
               correct: "Majmun sa dugačkim nosom"
             },
             {
-                question: "Cacajao calvus vrsta majmuna koja se lako prepoznaje po samom izgledu glave.)?",
+                question: "Cacajao calvus je vrsta majmuna koja se lako prepoznaje po samom izgledu glave. Na slici je?",
                   image: "celavi ukari.jpg", // Putanja do slike za pitanje
                   options: ["Ćelavi Ukari", "Mandril", "Urlikavi",],
                   correct: "Ćelavi Ukari"
                 },
                 {
-                    question: "Macaca fuscata, poznati kao snežni majmuni)?",
+                     question: "Macaca fuscata, poznati kao snežni majmuni, naseljavaju toplu i hladnu klimu u vulkanskim regionima Honšua, Japan. Na slici je? )?",
                       image: "japanski makaki.webp", // Putanja do slike za pitanje
-                      options: ["5", "6", "7", "8"],
-                      correct: "7"
+                      options: ["Barbarski mermerin", "Japanski makaki", "Šipanza"],
+                      correct: "Japanski makaki"
                     },
                     {
-                        question: "Koliko kontinenata se nalazi na slici?",
+                        question: "Theropithecus gelada pripadaju vrsti najkopnenijih majmuna na svetu. Na slici je?",
                           image: "gelada.jpg", // Putanja do slike za pitanje
-                          options: ["5", "6", "7", "8"],
-                          correct: "7"
+                          options: ["Zapadni kolobus", "Rolovai majmun", "Gelada"],
+                          correct: "Gelada"
                         },
-                        {
-                            question: "Koliko kontinenata se nalazi na slici?",
-                              image: "crveni kolobus.jpg", // Putanja do slike za pitanje
-                              options: ["5", "6", "7", "8"],
-                              correct: "7"
-                            },
+                        
+
                             {
-                                question: "Koliko kontinenata se nalazi na slici?",
+                                question: "Pithecia pithecia se odmah mogu primetiti po jedinstvenom licu bele boje. Na slici je?",
                                   image: "beloliki saki.jpg", // Putanja do slike za pitanje
-                                  options: ["5", "6", "7", "8"],
-                                  correct: "7"
+                                  options: [ "Rolovai", "Beloliki Saki", "Gold nose"],
+                                  correct: "Beloliki Saki"
                                 },
                                 {
-                                    question: "Koliko kontinenata se nalazi na slici?",
+                                    question: "Rhinopithecus bieti je vrsta majmuna koja je poznata po malom nosiću u obliku tačkice. Na slici je?",
                                       image: "prnjasti majmun.jpg", // Putanja do slike za pitanje
-                                      options: ["5", "6", "7", "8"],
-                                      correct: "7"
+                                      options: ["Rolovai", "Majmun sa zlatnim nosom", "Prnjasti majmun"],
+                                      correct: "Prnjasti majmun"
                                     },
                                     {
-                                        question: "Koliko kontinenata se nalazi na slici?",
+                                        question: "Cercopithecus rolovai je vrsta majmuna koja ima specificne kesice na obrazima za čuvanje hrane. Na slici je?",
                                           image: "rolovai majmun.webp", // Putanja do slike za pitanje
-                                          options: ["5", "6", "7", "8"],
-                                          correct: "7"
+                                          options: ["Kesasti majmun", "Rolovai majmun", "Spiks"],
+                                          correct: "Rolovai majmun"
                                         },
                                         {
-                                            question: "Koliko kontinenata se nalazi na slici?",
+                                            question: "Alouatta caraia ima uvećanu hioidnu kost u grlu koja pomaže u jačini urlika koji se može čuti na udaljenosti do 5 km. Na slci je?",
                                               image: "urlikavi majmun.jpg", // Putanja do slike za pitanje
-                                              options: ["5", "6", "7", "8"],
+                                              options: ["Big boss",  "Barbarski makaki", "Urlikavi majmun"],
                                               correct: "7"
                                             },
                                             {
-                                                question: "Koliko kontinenata se nalazi na slici?",
+                                                question: "Mandrillus sphink je najveći majmun na svetu koji se odlikuje maslinasto zelenim telom i crvenom prugom niz njušku. Na slici je?",
                                                   image: "mandril.jpg", // Putanja do slike za pitanje
-                                                  options: ["5", "6", "7", "8"],
-                                                  correct: "7"
+                                                  options: ["Spiks", "Mandril", "Šipanza"],
+                                                  correct: "Mandril"
                                                 },
                                                 {
-                                                    question: "Koliko kontinenata se nalazi na slici?",
+                                                    question: " Cebus apella, vrsta majmuna koji je glavni akter u omiljenim serijama ili filmovima, imaj naziv druge vrste toplog napitka. Na slici je?",
                                                       image: "kapucini.jpg", // Putanja do slike za pitanje
-                                                      options: ["5", "6", "7", "8"],
-                                                      correct: "7"
+                                                      options: ["Gorila", "Avanturista", "Kapućini"],
+                                                      correct:  "Kapućini"
                                                     },
   ];
   
-  let timeRemaining = 10;
-  let timer;
-  let currentQuestionIndex = 0;
-  let score = 0; // Bodovi igrača
+
+// DOM elementi
+const loginContainer = document.getElementById('login-container');
+const quizContainer = document.getElementById('quiz-container');
+const participantNameInput = document.getElementById('participant-name');
+const startQuizBtn = document.getElementById('start-quiz-btn');
+const resultContainer = document.getElementById('result');
+
+// Globalne promenljive za stanje kviza
+let participantName = '';
+
+let timer = null;
+let currentQuestionIndex = 0;
+let score = 0;
+let allScores = []; // Niz za čuvanje bodova svih igrača
+
+// Event listener za početak kviza
+startQuizBtn.addEventListener('click', function () {
+  participantName = participantNameInput.value.trim();
   
-  // Funkcija za pokretanje kviza sa novim pitanjem
-  function startQuiz() {
-    timeRemaining = 10;
-    document.getElementById('time').textContent = timeRemaining;
-    document.getElementById('result').textContent = "";
-  
-    if (currentQuestionIndex >= questions.length) {
-      showFinalMessage();
-      return;
-    }
-  
-    const currentQuestion = questions[currentQuestionIndex];
-    
-    // Prikaz slike, pitanja i opcija
-    document.getElementById('question').textContent = currentQuestion.question;
-    document.getElementById('question-image').src = currentQuestion.image; // Prikaz slike
-    const optionsContainer = document.getElementById('options');
-    optionsContainer.innerHTML = "";
-  
-    currentQuestion.options.forEach(option => {
-      const button = document.createElement('button');
-      button.textContent = option;
-      button.onclick = () => checkAnswer(button, option === currentQuestion.correct);
-      optionsContainer.appendChild(button);
-    });
-  
-    startTimer();
-  }
-  
-  // Funkcija za pokretanje tajmera
-  function startTimer() {
-    timer = setInterval(() => {
-      const timeDisplay = document.getElementById('time');
-      timeRemaining -= 1;
-      timeDisplay.textContent = timeRemaining;
-  
-      if (timeRemaining <= 0) {
-        clearInterval(timer);
-        showTimeoutMessage();
-      }
-    }, 1000);
-  }
-  
-  // Funkcija za prikaz poruke kada istekne vreme
-  function showTimeoutMessage() {
-    const result = document.getElementById('result');
-    result.textContent = "Vreme je isteklo! Pokušaj sledeće pitanje.";
-    result.style.color = "orange";
-  
-    disableButtons();
-    
-    setTimeout(() => {
-      nextQuestion();
-    }, 2000);
-  }
-  
-  // Funkcija za proveru odgovora
-  function checkAnswer(button, isCorrect) {
-    clearInterval(timer);
-    const result = document.getElementById('result');
-    
-    if (isCorrect) {
-      score++;
-      result.textContent = `Tačno! Osvojeni bodovi: ${score}`;
-      result.style.color = "green";
-    } else {
-      result.textContent = `Netačno. Osvojeni bodovi: ${score}`;
-      result.style.color = "red";
-    }
-  
-    disableButtons();
-  
-    setTimeout(() => {
-      nextQuestion();
-    }, 2000);
-  }
-  
-  // Funkcija za onemogućavanje dugmadi
-  function disableButtons() {
-    const buttons = document.querySelectorAll('.options button');
-    buttons.forEach(button => {
-      button.disabled = true;
-      button.style.backgroundColor = "#007bff";
-      button.style.color = "#fff";
-    });
-  }
-  
-  // Funkcija za prelazak na sledeće pitanje
-  function nextQuestion() {
-    currentQuestionIndex++;
+  if (participantName === '') {
+    alert('Molimo unesite ime pre početka kviza.');
+  } else {
+    loginContainer.style.display = 'none';
+    quizContainer.style.display = 'block';
     startQuiz();
   }
-  
-  // Funkcija za prikaz završne poruke
-  function showFinalMessage() {
-    document.getElementById('question').textContent = `Kviz je završen! Ukupno osvojenih bodova: ${score}`;
-    document.getElementById('question-image').src = ""; // Uklanja sliku
-    document.getElementById('options').innerHTML = "";
-    document.getElementById('timer').textContent = "";
-    document.getElementById('result').textContent = "";
-  }
-  const totalScoreElement = document.getElementById('total-score');
+});
 
-  // Pretpostavimo da čuvaš bodove svakog igrača u nizu (može biti deo igre)
-  let allScores = []; // Niz koji čuva bodove svih igrača
-
-  // Funkcija koja dodaje rezultat igrača na kraju igre
-  function addPlayerScore(score) {
-    allScores.push(score); // Dodaj bodove trenutnog igrača u niz
-    updateTotalScore(); // Ažuriraj ukupan rezultat
+// Funkcija za pokretanje kviza
+function startQuiz() {
+  if (currentQuestionIndex >= questions.length) {
+    showFinalMessage();
+    return;
   }
 
-  // Funkcija za prikaz ukupnog rezultata
-  function updateTotalScore() {
-    const totalScore = allScores.reduce((sum, current) => sum + current, 0); // Sabira bodove
-    totalScoreElement.innerText = `Ukupno bodova: ${totalScore}`;
+  resetQuestionState(); // Resetovanje stanja za novo pitanje
+  const currentQuestion = questions[currentQuestionIndex];
+
+  // Prikaz pitanja, slike i opcija
+  document.getElementById('question').textContent = currentQuestion.question;
+  document.getElementById('question-image').src = currentQuestion.image;
+  const optionsContainer = document.getElementById('options');
+  optionsContainer.innerHTML = "";
+
+  currentQuestion.options.forEach(option => {
+    const button = document.createElement('button');
+    button.textContent = option;
+    button.onclick = () => checkAnswer(button, option === currentQuestion.correct);
+    optionsContainer.appendChild(button);
+  });
+
+  startTimer();
+}
+
+// Funkcija za pokretanje tajmera
+function startTimer() {
+  clearTimer(); // Osiguraj da nema aktivnih tajmera
+  timeRemaining = 15;
+  document.getElementById('time').textContent = timeRemaining;
+
+  timer = setInterval(() => {
+    timeRemaining--;
+    document.getElementById('time').textContent = timeRemaining;
+
+    if (timeRemaining <= 0) {
+      clearTimer();
+      showTimeoutMessage();
+    }
+  }, 1000);
+}
+
+// Funkcija za proveru odgovora
+function checkAnswer(button, isCorrect) {
+  clearTimer();
+  const result = document.getElementById('result');
+
+  if (isCorrect) {
+    score++;
+    result.textContent = `Tačno! Osvojeni bodovi: ${score}`;
+    result.style.color = "green";
+  } else {
+    result.textContent = `Netačno. Osvojeni bodovi: ${score}`;
+    result.style.color = "red";
   }
 
-  // Simulacija završetka igre za jednog igrača (npr. nakon završenog kviza)
-  function endGame(playerScore) {
-    addPlayerScore(playerScore); // Dodaje bodove trenutnog igrača
-    alert(`Igrač je završio sa ${playerScore} bodova!`);
-  }
+  disableButtons();
+  setTimeout(nextQuestion, 2000);
+}
 
+// Funkcija za prikaz poruke kada istekne vreme
+function showTimeoutMessage() {
+  const result = document.getElementById('result');
+  result.textContent = "Vreme je isteklo! Pokušaj sledeće pitanje.";
+  result.style.color = "orange";
+
+  disableButtons();
+  setTimeout(nextQuestion, 2000);
+}
+
+// Funkcija za prelazak na sledeće pitanje
+function nextQuestion() {
+  currentQuestionIndex++;
+  startQuiz();
+}
+
+// Funkcija za resetovanje stanja pitanja
+function resetQuestionState() {
+  clearTimer();
+  document.getElementById('result').textContent = "";
+  const optionsContainer = document.getElementById('options');
+  optionsContainer.innerHTML = "";
+}
+
+// Funkcija za zaustavljanje tajmera
+function clearTimer() {
+  if (timer) {
+    clearInterval(timer);
+    timer = null;
+  }
+}
+
+// Funkcija za onemogućavanje dugmadi
+function disableButtons() {
+  const buttons = document.querySelectorAll('#options button');
+  buttons.forEach(button => {
+    button.disabled = true;
+    button.style.backgroundColor = "#007bff";
+    button.style.color = "#fff";
+  });
+}
+
+// Funkcija za prikaz završne poruke
+function showFinalMessage() {
+  document.getElementById('question').textContent = 
+    `Kviz je završen! Učesnik: ${participantName}, ukupno osvojenih bodova: ${score}.`;
   
-  
-  window.onload = startQuiz;
-  
+  document.getElementById('question-image').src = "";
+  document.getElementById('options').innerHTML = "";
+  document.getElementById('time').textContent = "";
+  document.getElementById('result').textContent = "";
+
+  // Čuvanje rezultata igrača
+  allScores.push({ name: participantName, score: score });
+
+  // Prikaz rezultata svih učesnika
+  const scoresList = allScores
+    .map((entry, index) => `<li>${index + 1}. ${entry.name}: ${entry.score} bodova</li>`)
+    .join('');
+  resultContainer.innerHTML = `<h3>Kviz je završen!</h3><ul>${scoresList}</ul>`;
+}

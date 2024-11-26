@@ -7,18 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Životinjsko carstvo majmuna</h1>
-        <div id="question-container">
-            <img id="question-image" src="" alt="Pitanje slika" class="question-image">
-            <h2 id="question"></h2>
-        </div>
-        <div id="options" class="options"></div>
-        <p id="timer">Preostalo vreme: <span id="time">10</span> sekundi</p>
-        <p id="result"></p>
-    </div>
-    <div id="total-score" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
+  <div id="login-container">
+    <h2>Unesite ime učesnika</h2>
+    <input type="text" id="participant-name" placeholder="Ime učesnika">
+    <button id="start-quiz-btn">Započni kviz</button>
+</div>
 
+
+<div class="quiz-container" id="quiz-container" style="display: none;">
+  <h1>Životinjsko carstvo majmuna</h1>
+  <div id="question-container">
+      <img id="question-image" src="" alt="Pitanje slika" class="question-image">
+      <h2 id="question"></h2>
+  </div>
+  <div id="options" class="options"></div>
+  <p id="timer">Preostalo vreme: <span id="time">15</span> sekundi</p>
+  <p id="result"></p>
+</div>
+
+        
+    <div id="score-table-container" style="display: none; margin-top: 20px;">
+      <h2>Rezultati učesnika</h2>
+      <table id="score-table" border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>Redni broj</th>
+            <th>Ime učesnika</th>
+            <th>Broj bodova</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dinamički će se popunjavati -->
+        </tbody>
+      </table>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
