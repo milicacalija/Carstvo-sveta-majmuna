@@ -2,9 +2,10 @@
 
 // Niz sa pitanjima, odgovorima i slikama
 const questions = [
+ 
    
     {
-      question: "Alfa heliks se stabilizuje intramolekulskim vodoničnim vezama između bliskih?",
+      question: "Alfa heliks se stabilizuje vodoničnim vezama između bliskih?",
       image: "alpfa heliks.jpg", // Putanja do slike za pitanje
       options: ["polarnih bočnih ostataka aminokiselina", "peptidnih grupa", "hidrofobnih interakcija"],
       correct: "peptidnih grupa"
@@ -46,12 +47,7 @@ const questions = [
               options: ["oligopeptida", "proteina", "polipeptida"],
               correct: "oligopeptida"
             },
-            {
-                question: "Enzim RNK polimeraza koji učestvuje u sintezi RNK sadrži?",
-                  image: "rnk-polimeraza.png", // Putanja do slike za pitanje
-                  options: ["neproteinsku komponentu RNK", "neproteinsku komponentu DNK", "samo proteinske komponente",],
-                  correct: "neproteinsku komponentu RNK"
-                },
+           
                 {
                      question: "Feritin je protein koji skladišti?",
                       image: "feritin.png", // Putanja do slike za pitanje
@@ -68,7 +64,7 @@ const questions = [
 
                             {
                                 question: "Signalni proteini imaju funkciju da?",
-                                  image: "insulin.jpeg", // Putanja do slike za pitanje
+                                  image: "insulin.jpg", // Putanja do slike za pitanje
                                   options: [ "skladište molekule ili jone", "prenose signale", "vezuju signalne molekule"],
                                   correct: "prenose signale"
                                 },
@@ -98,9 +94,9 @@ const questions = [
                                                   correct: "lizin"
                                                 },
                                                 {
-                                                    question: "Kada dodatkom vode se formira hidratni sloj oko istaloženog molekula proteina, pri čemu se nastale naelektrisane čestice odbijaju i talog se rastvara time se objašnjava proces?",
-                                                      image: "", // Putanja do slike za pitanje
-                                                      options: ["peptizacije", "koagulacije", "kavitacije"],
+                                                    question: "Kada dodatkom vode se formira hidratni sloj oko istaloženog molekula proteina, pri čemu se nastale naelektrisane čestice odbijaju, time se objašnjava proces?",
+                                                      image: "peptizacija.jpg", // Putanja do slike za pitanje
+                                                      options: ["peptizacije", "koagulacije", "elektrolize"],
                                                       correct:  "peptizacije"
                                                     },
 
@@ -118,9 +114,9 @@ const questions = [
                                                       correct:  "tetramerne"
                                                     },
                                                      {
-                                                    question: "Izoelektrična tačka je pH vrednost na kojoj je rastvorljivost proteina?",
+                                                    question: "Izoelektrična tačka proteina je pH vrednost na kojoj je rastvorljivost proteina?",
                                                       image: "izoelektricna pH.png", // Putanja do slike za pitanje
-                                                      options: ["najveća", "delimično slaba", "najslabija"],
+                                                      options: ["najveća", "raste s vremenom", "najslabija"],
                                                       correct:  "najslabija"
                                                     },
                                                     {
@@ -155,7 +151,7 @@ const questions = [
                                                       correct:  "tercijarni"
                                                     },
                                                      {
-                                                    question: "Složeni protein sadrži ostatke ugljenih hidrata, takav protein pripada grupi?",
+                                                    question: "Složeni protein sadrži ostatke ugljenih hidrata, pripada grupi?",
                                                       image: "glikoproteini.jpg", // Putanja do slike za pitanje
                                                       options: ["lipoproteina", "glikoproteina", "nukleoproteina"],
                                                       correct:  "glikoproteina"
@@ -171,12 +167,20 @@ const questions = [
                                                       image: "kolagen.jpg", // Putanja do slike za pitanje
                                                       options: ["skleroproteina", "nukleoproteina", "hromoproteina"],
                                                       correct:  "skleroproteina"
-                                                    },{
+                                                    },
+                                                     {
+                question: "HDL su proteini velike gustine koji transportuju holesterol i druge molekule masti pa pripadaju grupi?",
+                  image: "lipoproteini.webp", // Putanja do slike za pitanje
+                  options: ["glikoproteina", "nukleoproteina", "lipoproteina",],
+                  correct: "lipoproteina"
+                },
+                                                    {
                                                     question: "Elektroforeza je metoda razdvajanja proteina na osnovu?",
                                                       image: "elektroforeza.jpg", // Putanja do slike za pitanje
-                                                      options: ["gustine", "brzine naelektrisanih čestica", "molekulske mase"],
+                                                      options: ["gustine", "brzine naelektrisanih čestica", "koncentracije"],
                                                       correct:  "brzine naelektrisanih čestica"
                                                     },
+                                                    
   ];
   
 
@@ -237,7 +241,7 @@ function startQuiz() {
 // Funkcija za pokretanje tajmera
 function startTimer() {
   clearTimer(); // Osiguraj da nema aktivnih tajmera
-  timeRemaining = 30;
+  timeRemaining = 60;
   document.getElementById('time').textContent = timeRemaining;
 
   timer = setInterval(() => {
