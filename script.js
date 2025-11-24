@@ -36,7 +36,7 @@ const questions = [
       correct: "HEM"
     },
     {
-        question: "Biuretska reakcija je kvalitatativno dokazna za sadržaj ",
+        question: "Biuretska reakcija je kvalitatativno dokazna za sadržaj? ",
           image: "biuret test.webp", // Putanja do slike za pitanje
           options: ["nukleinskih kiselina","peptida","masti"],
           correct: "peptida"
@@ -88,7 +88,7 @@ const questions = [
                                               correct: "tirozin"
                                             },
                                             {
-                                                question: "Jonske veze u tercijarnoj strukturi proteina mogu graditi naelektrisani bočni nizovi aminokiseline",
+                                                question: "Jonske veze u tercijarnoj strukturi proteina mogu graditi naelektrisani bočni nizovi aminokiseline?",
                                                   image: "", // Putanja do slike za pitanje
                                                   options: ["leucin", "lizin", "valin"],
                                                   correct: "lizin"
@@ -262,9 +262,11 @@ function checkAnswer(button, isCorrect) {
 
   if (isCorrect) {
     score++;
-    result.textContent = `Tačno! Osvojeni bodovi: ${score}`;
+        button.style.backgroundColor = "green";
+    result.textContent = ` Osvojeni bodovi: ${score}`;
     result.style.color = "green";
   } else {
+        button.style.backgroundColor = "red";
     result.textContent = `Netačno. Osvojeni bodovi: ${score}`;
     result.style.color = "red";
   }
@@ -310,7 +312,6 @@ function disableButtons() {
   const buttons = document.querySelectorAll('#options button');
   buttons.forEach(button => {
     button.disabled = true;
-    button.style.backgroundColor = "#007bff";
     button.style.color = "#fff";
   });
 }
